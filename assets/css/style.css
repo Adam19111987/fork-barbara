@@ -417,7 +417,7 @@ span.underline-heading {
 /* No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media(max-width: 576px) and (min-width: 100px) {
   .container {
     width: 520px;
     margin: 0 auto;
@@ -428,6 +428,9 @@ span.underline-heading {
   }
   .navbar-brand img {
     width: 80%;
+  }
+  .boton button{
+    width: 100% !important;
   }
 }
 
